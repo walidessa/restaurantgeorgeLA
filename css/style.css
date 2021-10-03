@@ -1,0 +1,45 @@
+#footer {
+    min-height: 4em;
+    background-color: rgb(145, 243, 250);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  #banner1 {
+    min-height: 4em;
+    background-color: white;
+    text-align: center;
+    font-weight: bolder;
+
+  }
+
+  #mainpage1{
+      font-family: "Jomhuria", cursive;
+      font-family: "PT Sans", sans-serif;
+      background-color: #ffffff;
+      min-height: 90vh;
+  }
+  
+  #thisisus {
+    text-align: center;
+    font-weight: bolder;
+  }
+
+  body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Text */
+.border-top-5{
+    text-align: center;
+}
+
+.contact-us{
+    font-weight: bold;
+}
+
+/* Solid border */
+hr.solid {
+    border-top: 5px solid rgb(0, 0, 0);
+  }
