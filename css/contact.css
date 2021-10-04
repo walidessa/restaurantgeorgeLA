@@ -7,14 +7,24 @@ body{
     text-align: center;
 }
 
-.contact-us{
-   
+.title{
+
+    text-align: center;
 }
+
 
 /* Solid border */
 .hr{
     color:#000000;
     border:black;
-    border-top:3px solid #000000;
-    height:3px;
+    border-top:1px #000000;
+    height:2px;
+}
+
+.maps{
+
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+
 }
