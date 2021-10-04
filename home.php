@@ -27,6 +27,14 @@
   </head>
   <body>
   <section class="container" id="mainpage1">
+  <div class="card border-info mb-3">
+
+  <div class="card-body text-info">
+    <h1 class="card-title">COVID-19 Information</h1>
+                    <h3>Test</h3>
+                    <h3>Test</h3>
+                  </div>
+                </div>
             <div class="row">
               <div class="col-sm-12">
                 <div class="col-12 mb-2 mt-2 rounded">
@@ -40,24 +48,22 @@
                   </li>
                 </div>
               </div>
-           <!-- main pagina -->
           <section class="container" id=home>
             <div class="row mt-3" id="carouseltext">
                 <div class="col-md-12 d-none d-sm-block">
                   <div class="card-header text-center">
                   </div>
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                        <!-- carousel -->
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
-                            <img src="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/612657d7a3552cbc46c1702a_Untitled%2011%402x-p-500.jpeg" class="d-block w-100" alt="...">
+                            <img src="./img/photo1" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/611152b7638de16073131e92_Marina%20Terras%402x.jpg" class="d-block w-100" alt="...">
+                            <img src="./img/photo2" class="d-block w-100" alt="...">
                           </div>
                           <div class="carousel-item">
-                            <img src="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/60d5d8dc23267d1361257ea7_GEORGE%20MARINA18x.jpg" class="d-block w-100" alt="...">
+                            <img src="./img/photo3" class="d-block w-100" alt="...">
                           </div>
                         </div>
                         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
@@ -69,35 +75,29 @@
                           <span class="visually-hidden">Next</span>
                         </button>
                         </div>
-                </div>
-            </div>
-            <div class="col-xl-4 col-sm-12 order-1" id="thisisus">
+                      </div>
+                    </div>
+            <div class="col-xl-4 col-sm-12 order-1" id="thisisusmainpage1">
                 <div class="col-12 mb-2 mt-2 rounded">
-                  
-                  <!-- card 1 --> 
-                  <li class="list-group-item" id="thisisus" class="rounded">
+                  <li class="list-group-item" id="thisisusmainpage1" class="rounded">
                     <h3>OPENING</h3>
                     <h3>HOURS</h3>
                     <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
-                    <h1>𝘖𝘗𝘌𝘕 𝘋𝘈𝘐𝘓𝘠 𝘍𝘙𝘖𝘔</h1>
-                    <h6>11𝘈.𝘔. 𝘛𝘐𝘓𝘓 𝘓𝘈𝘛𝘌</h6>
+                    <h3>𝘖𝘗𝘌𝘕 𝘋𝘈𝘐𝘓𝘠 𝘍𝘙𝘖𝘔</h3>
+                    <h3>11𝘈.𝘔. 𝘛𝘐𝘓𝘓 𝘓𝘈𝘛𝘌</h3>
                     <h6>We'll rock your boat at George Marina</h6>
                     <h6>On sunny days we have valet parking for a fee of €12,50 during lunch and €15</h6>
                     <h6>during dinner </h6>
-                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
-                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
-                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
                   </li>
                 </div>
               </div>
-              <div class="col-xl-4 col-sm-12 order-3" id="thisisus">
+              <div class="col-xl-4 col-sm-12 order-3" id="thisisusmainpage1">
                 <div class="col-12 mb-2 mt-2 rounded">
-                  <li class="list-group-item" id="thisisus" class="rounded">
-                    <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
+                  <li class="list-group-item" id="thisisusmainpage1" class="rounded">
                     <h1>MENU'S</h1>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
-                    <input type="button" id="thisisus" class="btn btn-light" value="FOOD" onclick=" relocate_home()">
+                    <input type="button" id="button1" class="btn btn-light" value="FOOD" onclick=" relocate_home()">
                     <script>
                       function relocate_home()
                       {
@@ -105,7 +105,7 @@
                       } 
                     </script>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
-                    <input type="button" id="thisisus" class="btn btn-light" value="DRINKS" onclick=" relocate_home()">
+                    <input type="button" id="button1" class="btn btn-light" value="DRINKS" onclick=" relocate_home()">
                     <script>
                       function relocate_home()
                       {
@@ -120,10 +120,73 @@
               <div class="col-xl-4 col-sm-12 text-center">
                 <div class="col-12 mb-2 mt-2 rounded">
                   <li class="list-group-item" class="rounded">
-                    <h1>𝗕𝗢𝗢𝗞 𝗘𝗩𝗘𝗡𝗧</h1>
-                    <h1>𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡</h1>
+                    <h3>𝗕𝗢𝗢𝗞 𝗘𝗩𝗘𝗡𝗧</h3>
+                    <h3>𝗠𝗢𝗥𝗘 𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗧𝗜𝗢𝗡</h3>
                     <h5> ‎‏‏‎ </h5>
                     <h3> In search of an inspiring, creative meeting space that's all about quality, comfort and a relaxed atmosphere? We're here to make it happen for you. </h3>
+                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                  </li>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-12 text-center">
+                <div class="col-12 mb-2 mt-2 rounded">
+                  <li class="list-group-item" class="rounded">
+                    <h3>TAKE ME BACK TO</h3>
+                    <h3>GEORGE.AMSTERDAM</h3>
+                    <h5> ‎‏‏‎ </h5>
+                    <h3>GEORGE W.P.A. ||
+                        CAFÉ GEORGE </h3>
+                        <h3>GEORGE MARINA ||
+                        GEORGE L.A. </h3>
+                        <h3>GEORGE BISTRO BISTRO ||
+                        CAFÉ GEORGETTE </h3>
+                        <h3>LE PETIT GEORGE
+                        BISTRO G.P. BY GEORGE </h3>
+                        <h5> ‎‏‏‎ </h5>
+                        <h6>Click one of our other venues to discover what George has to offer.</h6>
+                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                  </li>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-12 text-center">
+                <div class="col-12 mb-2 mt-2 rounded">
+                  <li class="list-group-item" class="rounded">
+                    <img src="./img/img333.png" class="d-block w-100" alt="...">
+                    <h3>"COME QUICKLY, I’M TASTING THE SUNSET AND THE STARS"</h3>
+                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
+                    <h5>- DOM PERIGNON -</h5> 
+                  </li>
+                </div>
+              </div>
+              <div class="col-xl-4 col-sm-12 text-center">
+                <div class="col-12 mb-2 mt-2 rounded">
+                  <li class="list-group-item" class="rounded">
+                    <h3>CAREERS</h3>
+                    <h3></h3>
+                    <h5> ‎‏‏‎ </h5>
+                    <h3></h3>
+                    <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+                    <h5> ‎‏‏‎ </h5>
+
                   </li>
                 </div>
               </div>
