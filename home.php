@@ -31,8 +31,7 @@
 
   <div class="card-body text-info">
     <h1 class="card-title">COVID-19 Information</h1>
-                    <h3>Test</h3>
-                    <h3>Test</h3>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</h3>
                   </div>
                 </div>
             <div class="row">
@@ -97,22 +96,9 @@
                     <h1>MENU'S</h1>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
-                    <input type="button" id="button1" class="btn btn-light" value="FOOD" onclick=" relocate_home()">
-                    <script>
-                      function relocate_home()
-                      {
-                          location.href = "https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/610a90208d041a26db60ceb7_Marina%20food.pdf";
-                      } 
-                    </script>
+                    <button type="button" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/610a90208d041a26db60ceb7_Marina%20food.pdf" class="btn"><h2>FOOD</h2></button>
                     <h5> ‎‏‏‎‎‏‏‎  ‎‏‏‎‎‏‏‎ ‎‏‏‎‎‏‏‎ </h5>
-                    <input type="button" id="button1" class="btn btn-light" value="DRINKS" onclick=" relocate_home()">
-                    <script>
-                      function relocate_home()
-                      {
-                          location.href = "https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/610a902eb3d85f07df110d35_Marina%20drinks.pdf";
-                      } 
-                    </script>
-                    <h2> ‎‏‏‎ ‎‏‏‎</h2>
+                    <button type="button" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/610a902eb3d85f07df110d35_Marina%20drinks.pdf" class="btn"><h2>DRINKS</h2></button>
                     <h2> ‎‏‏‎ ‎‏‏‎</h2>
                   </li>
                 </div>
@@ -176,12 +162,12 @@
               <div class="col-xl-4 col-sm-12 text-center">
                 <div class="col-12 mb-2 mt-2 rounded">
                   <li class="list-group-item" class="rounded">
-                    <h3>CAREERS</h3>
                     <h3></h3>
                     <h5> ‎‏‏‎ </h5>
                     <h3></h3>
                     <h5>‎‏‏‎ ‎‏‏‎ ‎‏‏‎</h5>
                     <h5> ‎‏‏‎ </h5>
+                    <button type="button" class="btn"><h2>CAREERS</h2></button>
                     <h5> ‎‏‏‎ </h5>
                     <h5> ‎‏‏‎ </h5>
                     <h5> ‎‏‏‎ </h5>
