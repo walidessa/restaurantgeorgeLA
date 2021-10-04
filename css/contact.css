@@ -1,0 +1,20 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*Text */
+.border-top-5{
+    text-align: center;
+}
+
+.contact-us{
+   
+}
+
+/* Solid border */
+.hr{
+    color:#000000;
+    border:black;
+    border-top:3px solid #000000;
+    height:3px;
+}

@@ -25,21 +25,3 @@
     text-align: center;
     font-weight: bolder;
   }
-
-  body{
-    font-family: 'Times New Roman', Times, serif;
-}
-
-/*Text */
-.border-top-5{
-    text-align: center;
-}
-
-.contact-us{
-    font-weight: bold;
-}
-
-/* Solid border */
-hr.solid {
-    border-top: 5px solid rgb(0, 0, 0);
-  }
