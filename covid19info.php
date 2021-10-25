@@ -9,28 +9,32 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   </head>
         <body>
-   
         <div class="container p-2 text-center">
         <h3>COVID-19 Information</h3>
-        </div>
-        <div class="container border-top border-dark  " style="">
+      </div>
+        <div class="container border-top border-dark  ">
         <form class="border-bottom border-dark p-2">
-        <div class="card">
-        <div class="card-body">
             <blockquote class="blockquote mb-0">
-            <p>1.</p>
-            <p>2.</p>
-            <p>3.</p>
-            <p>4.</p>
-            <p>5.</p>
-            <p>6.</p>
-            <p>7.</p>
-            <p>8.</p>
-            <p>9.</p>
-            <p>10.</p>
-            <footer class="blockquote-footer">There are a certain amount of rules that you need to follow, or there will be consequences.</footer>
-            </blockquote>
-        </div>
+            <div class="row">
+            <div class="col-sm-10">
+                <div class="card-body">
+                    <p>𝟏. Lorem ipsum dolor sit amet, consectetur adipiscing elit.              </p>
+                    <p>𝟐. Sed faucibus nisi quis luctus fringilla.                              </p>
+                    <p>𝟑. Suspendisse non massa tincidunt, molestie metus ac, lobortis elit.    </p>
+                    <p>𝟒. Mauris malesuada ligula vel urna laoreet ornare.                      </p>
+                    <p>𝟓. Nullam et tellus vestibulum, mollis sem vitae, gravida risus.         </p>
+                    <p>𝟔. Phasellus ac erat nec tortor hendrerit dignissim.                     </p>
+                    <p>𝟕. Integer mollis quam eu dignissim vulputate.                           </p>
+                    <p>𝟖. Duis ac eros tristique libero porttitor aliquet sit amet vel nulla.   </p>
+                    <p>𝟗. Etiam accumsan nibh ut ex semper, non mollis leo finibus.             </p>
+                    <p>𝟏𝟎. Vivamus et nunc sit amet nulla suscipit hendrerit vitae vitae urna.  </p>
+                </div>
+              </div>      
+              <div class="" style="width: 13rem;">
+            <img class="card-img-top" src="./img/qr_img" alt="Card image cap">
+            <p> </p>
+            There are a certain amount of rules that you need to follow.
+          </div>
         </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
