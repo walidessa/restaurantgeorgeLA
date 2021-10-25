@@ -7,7 +7,7 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/landingpage.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
 
@@ -43,7 +43,7 @@
             <div class="row">
               <div class="col-sm-12">
                 <div class="col-12 mb-2 mt-2 rounded">
-                  <li class="list-group-item" id="thisisus" class="rounded">
+                  <li class="row" id="thisisus" class="rounded">
                     <h2>THIS IS US </h2> 
                     <p> ‎‏‏‎ ‎‏‏‎</p>
                     <h3>George Marina is set in a spectacular, three storey waterside building in the upcoming Amstelkwartier, right along the banks of the Amstel river that flows into Amsterdam's iconic canals.</h3>

@@ -10,13 +10,13 @@
   </head>
         <body>
         <div class="container p-2 text-center">
-        <h3>COVID-19 Information</h3></div>
-        <div class="container border-top border-dark  "style="">
+        <h3>COVID-19 Information</h3>
+      </div>
+        <div class="container border-top border-dark  ">
         <form class="border-bottom border-dark p-2">
             <blockquote class="blockquote mb-0">
             <div class="row">
             <div class="col-sm-10">
-
                 <div class="card-body">
                     <p>𝟏. Lorem ipsum dolor sit amet, consectetur adipiscing elit.              </p>
                     <p>𝟐. Sed faucibus nisi quis luctus fringilla.                              </p>
