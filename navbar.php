@@ -60,6 +60,9 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=contactus">Contact</a>
       </li>
+      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=careerpage">Career</a>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <?php 
