@@ -28,7 +28,7 @@
                         <input type="text" name="name" id="voornaam" placeholder="Voornaam" required />
                         <input type="text" name="name" id="achternaam" placeholder="Achternaam" required />
                         <input type="email" name="email" id="email" placeholder="E-mail" required />
-                        <input type="number" name="phone_number" id="telefoonnummer" placeholder="Telefoonnummer" required />
+                        <input type="number" name="phone_number" id="telefoonnummer" placeholder="Telefoonnummer" required  />
                         <div class="select-list">
                             <select name="course_type" id="course_type">
                                 <option slected value="">Functie:</option>
@@ -44,26 +44,28 @@
                         </div>
                     </div>
                     <div class="form-group-2">
-                        <h3>How would you like to bo located ?</h3>
+                        <h3>Hoe mogen we je benaderen?</h3>
                         <div class="select-list">
                             <select name="confirm_type" id="confirm_type">
                                 <option selected value="">Maak een keuze</option>
-                                <option value="by_email">By email</option>
+                                <option value="by_email">Telefonisch</option>
+                                <option value="by_email">E-mail</option>
+                                <option value="by_email">Per post</option>
                             </select>
                         </div>
-                        <div class="select-list">
+                        <!-- <div class="select-list">
                             <select name="hour_appointment" id="hour_appointment">
-                                <option seleected value="">Hours : 8am 10pm</option>
-                                <option value="9h-11h">Hours : 9am 11pm</option>
+                                <option seleected value=""></option>
+                                <option value="9h-11h"></option>
                             </select>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="form-check">
                         <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
-                        <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree to the  <a href="#" class="term-service">Terms and Conditions</a></label>
+                        <label for="agree-term" class="label-agree-term"><span><span></span></span>Ik ga akkoord met de  <a href="#" class="term-service">algemene voorwaarden</a></label>
                     </div>
                     <div class="form-submit">
-                        <input type="submit" name="submit" id="submit" class="submit" value="Request an appointment" />
+                        <input type="submit" name="submit" id="submit" class="submit" value="Solliciteer" />
                     </div>
                 </form>
             </div>
