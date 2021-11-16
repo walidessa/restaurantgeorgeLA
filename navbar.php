@@ -2,7 +2,7 @@
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
 <nav class="navbar navbar-expand-md navbar-light bg-light">
-  <a class="navbar-brand" href="./index.php?content=home">GEORGE MARINA</a>
+  <a class="navbar-brand" href="./index.php?content=home">GEORGE</a>
   
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -45,15 +45,11 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
                 </li>';
         }
       ?> 
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=juices">Menu</a>
-      </li>
+
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=book-event-page">Book Event</a>
       </li>
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=juices">Gallery</a>
-      </li>
+
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=aboutus">About Us</a>
       </li>
@@ -62,6 +58,9 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       </li>
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=careerpage">Career</a>
+      </li>
+    <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
+        <a class="nav-link" href="./index.php?content=musicplaylist ">Music Playlist</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
