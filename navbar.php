@@ -57,7 +57,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         <a class="nav-link" href="./index.php?content=contactus">Contact</a>
       </li>
       <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=careerpage">Career</a>
+        <a class="nav-link" href="./careerpage.html">Career</a>
       </li>
     <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
         <a class="nav-link" href="./index.php?content=musicplaylist ">Music Playlist</a>
