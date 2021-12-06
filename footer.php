@@ -26,6 +26,16 @@
                           <li>
                             <a href="./index.php?content=musicplaylist" class="text-white">Music Playlist</a>
                           </li>
+                          <li>
+                            <a href="./index.php?content=careerpage" class="text-white">Werken bij George</a>
+                          </li>
+                          <li>
+                            <a href="./index.php?content=aboutus" class="text-white">Over ons</a>
+                          </li>
+                          </li>
+                          <li>
+                            <a href="./index.php?content=bookevent" class="text-white">Book event</a>
+                          </li>
                       </div>
                       <div class="col-md-6 footer-widget-text">
                           <h6 class="widget-title">Telefoonnummer:</h6>

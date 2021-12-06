@@ -46,28 +46,18 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         }
       ?> 
 
-      <li class="nav-item <?php echo (in_array($active, ["bookevent", ""]))? "active": "" ?>">
-        <a class="nav-link" href="./index.php?content=bookevent">Book Event</a>
+      <li class="nav-item <?php echo (in_array($active, ["reserveren", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=reserveren">Reserveren</a>
       </li>
 
-      <li cclass="nav-item <?php echo (in_array($active, ["aboutus", ""]))? "active": "" ?>">
-        <a class="nav-link" href="./index.php?content=aboutus">About Us</a>
+      <li cclass="nav-item <?php echo (in_array($active, ["menu", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=menu">Menu</a>
       </li>
 
       <li class="nav-item <?php echo (in_array($active, ["contactus", ""]))? "active": "" ?>">
         <a class="nav-link" href="./index.php?content=contactus">Contact</a>
       </li>
 
-      <li class="nav-item <?php echo (in_array($active, ["careerpage", ""]))? "active": "" ?>">
-        <a class="nav-link" href="./index.php?content=careerpage">Career</a>
-      </li>
-
-      <li class="nav-item <?php echo (in_array($active, ["musicplaylist", ""]))? "active": "" ?>">
-          <a class="nav-link" href="./index.php?content=musicplaylist">Music Playlist</a>
-      </li>
-      <li class="nav-item <?php echo (in_array($active, ["menu", ""]))? "active": "" ?>">
-        <a class="nav-link" href="./index.php?content=menu">Menu</a>
-      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <?php 
@@ -106,10 +96,10 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
               </li>';
       } else {
         echo'<li class="nav-item '; echo (in_array($active, ["inloggen", ""])) ? "active" : ""; echo '">
-                <a class="nav-link" href="./index.php?content=inlog">Login</a>
+                <a class="nav-link" href="./index.php?content=inlog">Inloggen</a>
               </li>';
         echo'<li class="nav-item '; echo (in_array($active, ["registreer", ""])) ? "active" : ""; echo '">
-                <a class="nav-link" href="./index.php?content=registreer">Register</a>
+                <a class="nav-link" href="./index.php?content=registreer">Registeren</a>
               </li>';
         echo '<li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>
               <a class="nav-link" href="./index.php?content=covid19info">COVID-19 Information</a>
