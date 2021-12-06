@@ -11,7 +11,12 @@
     <title>Menu page</title>
   </head>
   <body>
-    <h1></h1>
+
+  <div class="container">
+    <div class="alert alert-dark text-center mt-2" role="alert">Our menu!</div>
+  </div>
+
+  <img src="./img/Elegant Deli Menu_page-1.jpg" class="card-img-top w-50" alt="kopen" ><img src="./img/Elegant Deli Menu_page-2.jpg" class="card-img-top w-50" alt="kopen" >
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -25,15 +30,3 @@
     -->
   </body>
 </html>
-
-<!-- Dit is de begin van de nav-->
-
-<!-- As a heading -->
-<nav class="navbar navbar-light bg-light h-50 ">
-  <div class="container-fluid">
-    <span class="navbar-brand mb-0 h1">             Our menu!</span>
-    
-  </div>
-</nav>
-<!-- dit is de einde van de nav-->
-<img src="./img/Elegant Deli Menu_page-1.jpg" class="card-img-top w-50" alt="kopen" ><img src="./img/Elegant Deli Menu_page-2.jpg" class="card-img-top w-50" alt="kopen" >

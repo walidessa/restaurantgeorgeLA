@@ -65,6 +65,9 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
       <li class="nav-item <?php echo (in_array($active, ["musicplaylist", ""]))? "active": "" ?>">
           <a class="nav-link" href="./index.php?content=musicplaylist">Music Playlist</a>
       </li>
+      <li class="nav-item <?php echo (in_array($active, ["menu", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=menu">Menu</a>
+      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <?php 
@@ -103,7 +106,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
               </li>';
       } else {
         echo'<li class="nav-item '; echo (in_array($active, ["inloggen", ""])) ? "active" : ""; echo '">
-                <a class="nav-link" href="./index.php?content=inloggen">Login</a>
+                <a class="nav-link" href="./index.php?content=inlog">Login</a>
               </li>';
         echo'<li class="nav-item '; echo (in_array($active, ["registreer", ""])) ? "active" : ""; echo '">
                 <a class="nav-link" href="./index.php?content=registreer">Register</a>
