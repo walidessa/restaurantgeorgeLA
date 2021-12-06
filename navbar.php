@@ -92,7 +92,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
             break;
           }
           echo'<li class="nav-item '; echo (in_array($active, ["uitloggen", ""])) ? "active" : ""; echo '">
-                <a class="nav-link" href="./index.php?content=uitloggen">Log out</a>
+                <a class="nav-link" href="./index.php?content=uitloggen">Uitloggen</a>
               </li>';
       } else {
         echo'<li class="nav-item '; echo (in_array($active, ["inloggen", ""])) ? "active" : ""; echo '">
