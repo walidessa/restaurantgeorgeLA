@@ -35,12 +35,12 @@
                 <img src="./img/logo" alt="logo" class="logo">
               </div>
               <p class="login-card-description">Registeren </p>
-              <form action="./db/georgemboutrecht-04.sql">
+              <form action="./register_script.php" method="post">
                   <div class="form-group">
                     <label for="email" class="sr-only">E-mail:</label>
                     <input type="email" name="email" id="email" class="form-control" placeholder="E-mailadres">
                   </div>
-                  <input name="Registreer" id="login" class="btn btn-block login-btn mb-4" type="button" value="login">
+                  <input name="email" id="email" class="btn btn-block login-btn mb-4" type="button" value="Registreren">
                 </form>
                 <nav class="login-card-footer-nav">
                 </nav>
