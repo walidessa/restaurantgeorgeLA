@@ -1,11 +1,17 @@
 <?php
     include("./functions.php");
 
-    is_authorized(["root", "moderator"]);
+    is_authorized(["root", "admin"]);
 ?>
-
-m-homepagina
+E-Homepagina
 <?php
+
+    // unset($_SESSION["id"]);
+    // unset($_SESSION["userrole"]);
+    // session_destroy();
+
+    // var_dump($_SESSION);
+
 
     echo "Mijn gebruikersrol is: " . $_SESSION["userrole"];
     echo "<hr>";

@@ -1,10 +1,10 @@
 <?php
     include("./functions.php");
 
-    is_authorized(["root"]);
+    is_authorized(["klant", "klant"]);
 ?>
 
-r-homepagina
+K-homepagina
 <?php
 
     echo "Mijn gebruikersrol is: " . $_SESSION["userrole"];

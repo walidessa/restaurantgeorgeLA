@@ -41,21 +41,27 @@ if (empty($email) || empty($password)) {
             $_SESSION["userrole"] = $record["userrole"];
 
             switch($record["userrole"]) {
-            case 'customer':
-                header("Location: ./index.php?content=c-homepagina");
-            break;
-            case 'admin':
-                header("Location: ./index.php?content=a-homepagina");
-            break;
-            case 'root':
-                header("Location: ./index.php?content=r-homepagina");
-            break;
-            case 'moderator':
-                header("Location: ./index.php?content=m-homepagina");
-            break;
-            default:
-                header("Location: ./index.php?content=homepagina");
-            break;
+                case 'docent':
+                    header("Location: ./index.php?content=d-home");
+                    break;
+                  case 'eigenaar':
+                    header("Location: ./index.php?content=e-home");
+                    break;
+                  case 'student':
+                    header("Location: ./index.php?content=s-home");
+                    break;
+                  case 'begeleider':
+                    header("Location: ./index.php?content=b-home");
+                    break;
+                  case 'klant':
+                    header("Location: ./index.php?content=k-home");
+                    break;
+                  case 'root':
+                    header("Location: ./index.php?content=r-home");
+                    break;
+                  default:
+                    header("Location: ./index.php?content=home");
+                    break;
             }
         }
     } // E-mailadres onbekend...

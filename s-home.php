@@ -4,7 +4,7 @@
     is_authorized(["root", "admin"]);
 ?>
 
-Studentnummer: 330710
+Studentnummer: 
 <?php
 
     // unset($_SESSION["id"]);
