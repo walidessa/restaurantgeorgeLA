@@ -13,7 +13,6 @@
                     <input name="password" type="password" class="form-control" id="inputPassword" aria-describedby="passwordHelp">
                     <small id="passwordHelp" class="form-text text-muted">Pas op voor meekijkers tijdens het invoeren...</small>
                 </div>
-
                 <button type="submit" class="btn btn-outline-success btn-md btn-block mt-4">Inloggen</button>
             </form>
 

@@ -7,7 +7,7 @@
 
         $email = sanitize($_POST["email"]);
 
-        $sql = "SELECT * FROM `register` WHERE `email` = '$email'";
+        $sql = "SELECT * FROM `password` WHERE `email` = '$email'";
 
         $result = mysqli_query($conn, $sql);
 

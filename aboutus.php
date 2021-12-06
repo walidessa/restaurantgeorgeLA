@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-   
+    <link href="aboutUs.css" rel="Stylesheet" type="text/css">
 
     <title>About Us</title>
   </head>
@@ -15,20 +15,20 @@
 
     <div class = "container border-top border-dark "></div>
 
-    <div class ="container" >
-           <img  src ="608ad3e5c6ee362a4917135a_george-careers-p-500.jpeg" class ="img1">
-        <div class ="text">
-            <h1 class="text-center">How it began</h1>
-            <p>From that local neighbourhood spot where everybody knows your name to a light-filled,
-               eclectic restaurant with view on the Amstel river: George has it all.
-              Serving you iconic dishes and timeless classics with New York, Paris,
-               the Côte d'Azur and Hong Kong in mind, along with local ingredients,
-                freshly roasted coffee and signature cocktails, our restaurants are open all day,
-                 every day –  so come join us for an early morning espresso,
-                  a lazy Sunday brunch or an intimate 
-              dinner with friends in a relaxed, elegant atmosphere.</p>
-        </div>
-    </div>
+      <div class ="container" >
+            <img  src ="./img/608ad3e5c6ee362a4917135a_george-careers-p-500.jpeg" class ="img1">
+          <div class ="text">
+              <h1 class="text-center">How it began</h1>
+              <p>From that local neighbourhood spot where everybody knows your name to a light-filled,
+                eclectic restaurant with view on the Amstel river: George has it all.
+                Serving you iconic dishes and timeless classics with New York, Paris,
+                the Côte d'Azur and Hong Kong in mind, along with local ingredients,
+                  freshly roasted coffee and signature cocktails, our restaurants are open all day,
+                  every day –  so come join us for an early morning espresso,
+                    a lazy Sunday brunch or an intimate 
+                dinner with friends in a relaxed, elegant atmosphere.</p>
+          </div>
+      </div>
 
     <div class = "container border-top border-dark" id="2deStreep"></div>
 
@@ -41,7 +41,7 @@
         </div>
         <div class="class img2">
 
-        <img  src ="60896d87ae053a085fd416ba_olives.png" >
+        <img  src ="./img/60896d87ae053a085fd416ba_olives.png" >
     </div>
     </div>
 
@@ -52,7 +52,7 @@
        
       <div class="class img3">
 
-        <img  src ="cookies.png" >
+        <img  src ="./img/cookies.png" >
     </div>
     <div class="text2">
         <h1 >Our succeses</h1>
@@ -62,7 +62,6 @@
             featuring typical George elements like metro tiles, lush leather couches,
              brass lighting, and marble bars. With each location having its own charm,
               your visit to George quite literally is a feast for your eyes and taste buds.
-
             </p>
 
     </div>
