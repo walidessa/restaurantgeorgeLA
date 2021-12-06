@@ -19,16 +19,31 @@
               <div class="col-md-6">
                   <div class="row">
                       <div class="col-md-6 footer-widget-text">
+                          <h6 class="widget-title">Informatie</h6>
+                          <li>
+                            <a href="./index.php?content=Ssponsor" class="text-white">Sponsor worden</a>
+                          </li>
+                          <li>
+                            <a href="./index.php?content=musicplaylist" class="text-white">Music Playlist</a>
+                          </li>
+                      </div>
+                      <div class="col-md-6 footer-widget-text">
                           <h6 class="widget-title">Telefoonnummer:</h6>
                           <p class="widget-content">0207370280</p>
-                      </div>
-                      <div class="col-md-6 footer-widget-text">
-                          <h6 class="widget-title">E-mail:</h6>
                           <p class="widget-content">info@georgela.nl</p>
+                          <p class="widget-content">Daltonlaan 300<br>3584 BK Utrecht</p>
                       </div>
                       <div class="col-md-6 footer-widget-text">
-                          <h6 class="widget-title">Adres:</h6>
-                          <p class="widget-content">Daltonlaan 300<br>3584 BK Utrecht</p>
+                          <h6 class="widget-title">Leerling</h6>
+                          <li>
+                            <a href="./index.php?content=inlog" class="text-white">Inloggen</a>
+                          </li>
+                          <li>
+                            <a href="./index.php?content=rooster" class="text-white">Rooster</a>
+                          </li>
+                          <li>
+                            <a href="./index.php?content=profile" class="text-white">Profiel</a>
+                          </li>
                       </div>
                       <div class="col-md-6 footer-widget-text">
                           <h6 class="widget-title">Openingstijden:</h6>
