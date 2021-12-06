@@ -1,0 +1,86 @@
+body {
+    font-family: "bookman old style";
+  }
+
+  
+  .center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  :target {
+    color: lightyellow;
+    background: indianred;
+  }
+  
+  h3,
+  h1 {
+    color: indianred;
+  }
+  
+  img {
+    border: 3px dashed indianred;
+  }
+  
+  body {
+    counter-reset: srl;
+  }
+  body{
+    margin-top:20px;
+}
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+.table-bordered thead td, .table-bordered thead th {
+    border-bottom-width: 2px;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+
+
+
+
+
+
+.padding-15px-lr {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+.padding-5px-tb {
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+.margin-10px-bottom {
+    margin-bottom: 10px;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
+.margin-10px-top {
+    margin-top: 100px;
+}
+.font-size14 {
+    font-size: 14px;
+}
+
+.text-light-gray {
+    color: #d6d5d5;
+}
+.font-size13 {
+    font-size: 13px;
+}
+
+.table-bordered td, .table-bordered th {
+    border: 1px solid #dee2e6;
+}
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}

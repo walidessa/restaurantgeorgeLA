@@ -24,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
   </head>
-  <body style="background-color:honeydew;">
+  <body style="background-color:white;">
   <!DOCTYPE html>
     <html lang="en">
       <head>

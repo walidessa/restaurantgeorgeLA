@@ -1,4 +1,4 @@
-<footer class="bg-dark text-center text-white">
+<footer class="bg-dark text-center text-white fixed-bottom">
   <div class="container p-4">
     <section class="">
       <form action="">
@@ -30,7 +30,7 @@
           <h5 class="text-uppercase">About us</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="./index.php?content=aboutus" class="text-white">Link 1</a>
+              <a href="./index.php?content=aboutus" class="text-white">About us</a>
             </li>
           </ul>
         </div>
@@ -38,7 +38,7 @@
           <h5 class="text-uppercase">Book Event</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="./index.php?content=book-event-page" class="text-white">Link 1</a>
+              <a href="./index.php?content=bookevent" class="text-white">Book Event</a>
             </li>
           </ul>
         </div>
@@ -46,7 +46,7 @@
           <h5 class="text-uppercase">Contact</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="./index.php?content=contactus" class="text-white">Link 1</a>
+              <a href="./index.php?content=contactus" class="text-white">Contact</a>
             </li>
           </ul>
         </div>
@@ -54,7 +54,7 @@
           <h5 class="text-uppercase">Career</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="./index.php?content=careerpage" class="text-white">Link 1</a>
+              <a href="./index.php?content=careerpage" class="text-white">Career</a>
             </li>
           </ul>
         </div>

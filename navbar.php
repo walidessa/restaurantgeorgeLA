@@ -46,21 +46,24 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
         }
       ?> 
 
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=book-event-page">Book Event</a>
+      <li class="nav-item <?php echo (in_array($active, ["bookevent", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=bookevent">Book Event</a>
       </li>
 
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
+      <li cclass="nav-item <?php echo (in_array($active, ["aboutus", ""]))? "active": "" ?>">
         <a class="nav-link" href="./index.php?content=aboutus">About Us</a>
       </li>
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
+
+      <li class="nav-item <?php echo (in_array($active, ["contactus", ""]))? "active": "" ?>">
         <a class="nav-link" href="./index.php?content=contactus">Contact</a>
       </li>
-      <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./careerpage.html">Career</a>
+
+      <li class="nav-item <?php echo (in_array($active, ["careerpage", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=careerpage">Career</a>
       </li>
-    <li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>">
-        <a class="nav-link" href="./index.php?content=musicplaylist ">Music Playlist</a>
+
+      <li class="nav-item <?php echo (in_array($active, ["musicplaylist", ""]))? "active": "" ?>">
+          <a class="nav-link" href="./index.php?content=musicplaylist">Music Playlist</a>
       </li>
     </ul>
     <ul class="navbar-nav ml-auto">
@@ -95,22 +98,20 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
             default:
             break;
           }
-          echo '<li class="nav-item '; echo ($active == "logout") ? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
-                </li>';
-        } else {
-          echo '<li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>
-                <a class="nav-link" href="./index.php?content=covid19info">COVID-19 Information</a>
-                </li>
-                <li class="nav-item '; echo ($active == "register")? "active" : ""; echo '">
-                <a class="nav-link" href="./index.php?content=register">registreer</a>
-                </li>
-                
-
-                <li class="nav-item '; echo ($active == "login") ? "active" : ""; echo '">
-                  <a class="nav-link" href="./index.php?content=login">inloggen</a>
-                </li>';
-        }
+          echo'<li class="nav-item '; echo (in_array($active, ["uitloggen", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=uitloggen">Log out</a>
+              </li>';
+      } else {
+        echo'<li class="nav-item '; echo (in_array($active, ["inloggen", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=inloggen">Login</a>
+              </li>';
+        echo'<li class="nav-item '; echo (in_array($active, ["registreer", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=registreer">Register</a>
+              </li>';
+        echo '<li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>
+              <a class="nav-link" href="./index.php?content=covid19info">COVID-19 Information</a>
+              </li>';
+      }
       ?>    
     </ul>
   </div>
