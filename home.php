@@ -64,11 +64,8 @@
             <strong>Click for the COVID-19 Information:‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎
             </strong>
             <a href="./index.php?content=covid19info" class="btn btn-outline-dark" role="button" aria-pressed="true">Go to COVID-19 page</a>
-            
-          </div>
-          
+          </div>   
     </section>
-
   <section class="container" id="mainpage1">
             <div class="row">
               <span class="border border-dark">
@@ -90,6 +87,7 @@
                 <div class="col-md-12 d-none d-sm-block">
                   <div class="card-header text-center">
                   </div>
+                  
                     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
@@ -113,17 +111,18 @@
                         </button>
                         </div>
                       </div>
-                    </div>
-            
-           
+                      
+              </div>
           </section> 
-           
       </main>
       <div class="">
   <div class="container">
     <h1 class="display-4"></h1>
   </div>
 </div>
+<h7>
+‎
+</h7>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
   </body>
