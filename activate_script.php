@@ -62,11 +62,11 @@
                                               `achternaam`, 
                                               `email`, 
                                               `mobiel`,
-                                              `newsletter`, 
                                               `rol`, 
                                               `createdAt`, 
                                               `updatedAt`, 
-                                              `emailVerified`) 
+                                              `emailVerified`,
+                                              `newsletter`) 
                                   VALUES              (NULL, 
                                               '$firstname', 
                                               '$infix', 
@@ -87,7 +87,6 @@
                                             `tussenvoegsel`, 
                                             `achternaam`, 
                                             `mobiel`,
-                                            `newsletter`, 
                                             `email`, 
                                             `woonplaats`, 
                                             `straat`, 
