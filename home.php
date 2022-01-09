@@ -48,7 +48,9 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Corona rules:</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae purus. Lacus vel facilisis volutpat est velit egestas dui. Donec ultrices tincidunt arcu non sodales neque. Proin sagittis nisl rhoncus mattis.</p>
