@@ -23,8 +23,8 @@
                   <p> U ontvangt per e-mail een link om uw wachtwoord opnieuw in te stellen.</p>
                   <input name="email" id="email" class="btn btn-block login-btn mb-4" type="button" value="Verzenden">
                 </form>
-                <p class="login-card-footer-text"><a href="./index.php?content=inlog" class="text-reset">Login</a></p>
-                <p class="login-card-footer-text"><a href="./index.php?content=registreer" class="text-reset">Registreer</a></p>
+                <a href="./index.php?content=inlog" class="text-reset">Login</a><br></br>
+                <a href="./index.php?content=registreer" class="text-reset">Registreer</a>
                 <nav class="login-card-footer-nav">
                 </nav>
             </div>

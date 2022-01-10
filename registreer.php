@@ -41,6 +41,12 @@
                     <input type="email" name="email" id="email" class="form-control" placeholder="E-mailadres">
                   </div>
                   <input name="email" id="email" class="btn btn-block login-btn mb-4" type="button" value="Registreren">
+                  <a href="./index.php?content=inlog" class="text-reset">Inloggen als student?</a><br>
+                  <a href="./index.php?content=d-home" class="text-reset">Inloggen als docent?</a><br>
+                  <a href="./index.php?content=b-home" class="text-reset">Inloggen als begeleider?</a><br>
+                <a href="./index.php?content=e-home" class="text-reset">Inloggen als eigenaar?</a><br>
+              </br>
+                <a href="./index.php?content=resetpw" class="forgot-password-link">Wachtwoord vergeten?</a>
                 </form>
                 <nav class="login-card-footer-nav">
                 </nav>

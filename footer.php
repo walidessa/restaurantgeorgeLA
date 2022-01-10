@@ -30,15 +30,17 @@
                             <a href="./index.php?content=careerpage" class="text-white">Werken bij George</a>
                           </li>
                           <li>
-                            <a href="./index.php?content=aboutus" class="text-white">Over ons</a>
+                            <a href="./index.php?content=applicationpage" class="text-white">Open vacature</a>
                           </li>
+                          <li>
+                            <a href="./index.php?content=aboutus" class="text-white">Over ons</a>
                           </li>
                           <li>
                             <a href="./index.php?content=bookevent" class="text-white">Book event</a>
                           </li>
                       </div>
                       <div class="col-md-6 footer-widget-text">
-                          <h6 class="widget-title">Telefoonnummer:</h6>
+                          <h6 class="widget-title">Contact</h6>
                           <p class="widget-content">0207370280</p>
                           <p class="widget-content">info@georgela.nl</p>
                           <p class="widget-content">Daltonlaan 300<br>3584 BK Utrecht</p>
@@ -64,7 +66,7 @@
           </div>
       </div>
       <div class="footer-text">
-          <p class="mb-md-0">© Copyright 2021 George LA - Made with passion by SD2A2 <a href="https://georgela.nl/" target="_blank" rel="noopener noreferrer" class="text-reset">George LA</a></p>
+          <p class="mb-md-0">© Copyright 2021 George LA - Made with passion by SD2A2 <a href="https://www.georgela.nl/" target="_blank" rel="noopener noreferrer" class="text-reset">George LA</a></p>
           <p class="mb-0">Alle rechten voorbehouden</p>
       </div>
   </div>

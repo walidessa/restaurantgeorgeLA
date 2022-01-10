@@ -18,7 +18,7 @@
               <form action="./db/georgemboutrecht-04.sql">
                   <div class="form-group">
                     <label for="email" class="sr-only">E-mail:</label>
-                    <input type="email" name="email" id="email" class="form-control" placeholder="123456@student.mboutrecht.nl">
+                    <input type="email" name="email" id="email" class="form-control" placeholder="E-mailadres">
                   </div>
                   <div class="form-group mb-4">
                     <label for="password" class="sr-only">Wachtwoord:</label>
