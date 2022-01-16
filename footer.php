@@ -3,7 +3,9 @@
 <link rel="stylesheet" href="./css/footer.css" />
 
 <footer class="oleez-footer wow fadeInUp" style="visibility: visible; animation-name: fadeInUp;">
+
   <div class="container">
+
       <div class="footer-content">
           <div class="row">
               <div class="col-md-6">
@@ -43,6 +45,7 @@
                           <p class="widget-content">info@georgela.nl</p>
                           <p class="widget-content">Daltonlaan 300<br>3584 BK Utrecht</p>
                       </div>
+
                       <div class="col-md-6 footer-widget-text">
                           <h6 class="widget-title">Leerling</h6>
                           <li>
