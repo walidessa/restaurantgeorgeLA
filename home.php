@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="css/landingpage.css">
+    <link rel="stylesheet" href="./css/footer.css" />
     <link rel="styleshrgb(233, 233, 233)/cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
     <script src="script.js" defer></script>
@@ -24,7 +25,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tourney:wght@600&display=swap" rel="stylesheet">
   </head>
-  <body style="background-color:honeydew;">
+  <body style="background-color:white;">
+
+
   <!DOCTYPE html>
     <html lang="en">
       <head>
@@ -45,7 +48,9 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">Corona rules:</h5>
-                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
             </div>
             <div class="modal-body">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra suspendisse potenti nullam ac tortor vitae purus. Lacus vel facilisis volutpat est velit egestas dui. Donec ultrices tincidunt arcu non sodales neque. Proin sagittis nisl rhoncus mattis.</p>

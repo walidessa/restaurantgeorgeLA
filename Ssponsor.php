@@ -39,7 +39,7 @@
   </div>
 
   <div class="form-group">
-    <label for="exampleInputEmail1 " class=" border-bottom border-dark">Hier de Naam van het bedrijf?</label>
+    <label for="exampleInputEmail1 " class=" border-bottom border-dark">Hier de naam van het bedrijf?</label>
     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
   </div>
 

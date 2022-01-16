@@ -1,6 +1,7 @@
 <?php
 $active = (isset($_GET["content"])) ? $_GET["content"] : "";
 ?>
+
 <nav class="navbar navbar-expand-sm navbar-dark bg-dark ">
     <div class="container">
     <a class="navbar-brand" href="#">
@@ -48,6 +49,67 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
           </li>
           </ul>
           <ul class="navbar-nav ml-auto">
+=======
+<nav class="navbar navbar-expand-md navbar-light bg-light">
+  <a class="navbar-brand" href="./index.php?content=home">GEORGE</a>
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <?php
+        if (isset($_SESSION["id"])) {
+          switch ($_SESSION["userrole"]) {
+            case 'admin':
+              echo '<li class="nav-item '; echo (in_array($active, ["a-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=a-home">home <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'root':
+              echo '<li class="nav-item '; echo (in_array($active, ["r-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=r-home">home <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'customer':
+              echo '<li class="nav-item '; echo (in_array($active, ["c-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=c-home">home <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            case 'moderator':
+              echo '<li class="nav-item '; echo (in_array($active, ["m-home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=m-home">home <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+            default:
+              echo '<li class="nav-item '; echo (in_array($active, ["home", ""])) ? "active" : ""; echo '">
+                      <a class="nav-link" href="./index.php?content=home">Home <span class="sr-only">(current)</span></a>
+                    </li>';
+            break;
+
+          }
+        } else {
+          echo '<li class="nav-item '; echo (in_array($active, ["home", ""])) ? "active" : ""; echo '">
+                  <a class="nav-link" href="./index.php?content=home">Home <span class="sr-only">(current)</span></a>
+                </li>';
+        }
+      ?> 
+
+      <li class="nav-item <?php echo (in_array($active, ["reserveren", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=reserveren">Reserveren</a>
+      </li>
+
+      <li cclass="nav-item <?php echo (in_array($active, ["menu", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=menu">Menu</a>
+      </li>
+
+      <li class="nav-item <?php echo (in_array($active, ["contactus", ""]))? "active": "" ?>">
+        <a class="nav-link" href="./index.php?content=contactus">Contact</a>
+      </li>
+
+    </ul>
+    <ul class="navbar-nav ml-auto">
+
       <?php 
         if (isset($_SESSION["id"])) {
           switch($_SESSION["userrole"]) {
@@ -78,6 +140,7 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
             default:
             break;
           }
+
           echo '<li class="nav-item '; echo ($active == "logout") ? "active" : ""; echo '">
                   <a class="nav-link" href="./index.php?content=logout">uitloggen</a>
                 </li>';
@@ -89,6 +152,22 @@ $active = (isset($_GET["content"])) ? $_GET["content"] : "";
                   <a class="nav-link" href="./index.php?content=login">inloggen</a>
                 </li>';
         }
+
+          echo'<li class="nav-item '; echo (in_array($active, ["uitloggen", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=uitloggen">Uitloggen</a>
+              </li>';
+      } else {
+        echo'<li class="nav-item '; echo (in_array($active, ["inloggen", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=inlog">Inloggen</a>
+              </li>';
+        echo'<li class="nav-item '; echo (in_array($active, ["registreer", ""])) ? "active" : ""; echo '">
+                <a class="nav-link" href="./index.php?content=registreer">Registeren</a>
+              </li>';
+        echo '<li class="nav-item <?php echo ($active == "juices") ? "active" : "" ?>
+              <a class="nav-link" href="./index.php?content=covid19info">COVID-19 Information</a>
+              </li>';
+      }
+
       ?>    
     </ul>
       </div>

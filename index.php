@@ -6,52 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
+    <!-- Dit is mijn css file -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css" />
 
-    <link rel="shortcut icon" href="https://uploads-ssl.webflow.com/5f3ece93689659d6e7431728/5f44d0b584ac6b6bafdf91fd_George-marina-favicon-s.png" type="image/x-icon">
+    <!--Dit is mijn icon -->
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
+
     <title>George Marina | Los Angeles</title>
-  </head>
-  <body>
+    </head>
+    <body>
+
     <main>
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-12 px-0">
-            <?php include("./banner.php"); ?>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-12 px-0">
-            <?php include("./navbar.php"); ?>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid">
-        <div class="row">
-          <div class="col-12">
-            <?php include("./content.php"); ?>
-          </div>
-        </div>
-      </section>
-      <section class="container-fluid fixed-bottom">
-        <div class="row">
-          <div class="col-12 px-0">
-            <?php include("./footer.php"); ?>
-          </div>
-        </div>
-      </section>
-    </main>
+            <section class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-12"><?php include("./banner.php"); ?></div>
+                </div>
+            </section>
+            <section class="container-fluid px-0">
+                <div class="row">
+                    <div class="col-12"><?php include("./navbar.php"); ?></div>
+                </div>
+            </section>
+            <section class="container-fluid">
+                <div class="row">
+                    <div class="col-12">
+                      <?php include ("./content.php"); ?>
+                    </div>
+                </div>
+            </section>
+            <section class="container-fluid px-0 mt-4 sticky-bottom">
+                <div class="row">
+                    <div class="col-12"><?php include("./footer.php"); ?></div>
+                </div>
+            </section>
+    
+        </main>
 
+   
+    <!-- Optional JavaScript; choose one of the two! -->
 
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
     <script src="./js/app.js"></script>
+
   </body>
 </html>
